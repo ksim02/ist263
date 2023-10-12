@@ -1,18 +1,13 @@
     body 
     {background-color:#9BABB8;
+    color:#ffffff;
     }
 
-   h1, h2 {
-    color:#FFFFFF;
-    } 
+   h1, h2 {color:#a46a30;} 
+   
+   a {color:#2E4374;}
    
    
-   
-   
-    p {
-        background-color:#efefef;
-    }
-
    nav {background-color:#EEE3CB;
         padding: 10px;
         margin-bottom: 30px}
