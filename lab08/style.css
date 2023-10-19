@@ -4,9 +4,7 @@ a {color:#2E4374;}
 
    
    
-   nav {background-color:#EEE3CB;
-        padding: 10px;
-        margin-bottom: 30px}
+   nav {background-color:#EEE3CB; padding: 10px; margin-bottom: 30px}
    nav a {color:#eb604b;}
    nav a:hover {background-color:#D7C0AE;} 
 
@@ -16,7 +14,7 @@ a {color:#2E4374;}
 .part2 {display: flex; padding: 50px; background-color:#464245; border-radius: 1em;}
 .pa1 {float: left;}
 .pa2 {margin-left: 70px; margin-top: 60px;}
-.pa2 a:link {color: white; background-color: transparent;}
+.pa2 a:link, a:visited {color: white; background-color: transparent;}
 .pa3 {float: left;}
 .pa4 {margin-left: 70px;}
 
