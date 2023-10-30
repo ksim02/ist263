@@ -1,0 +1,32 @@
+body {background-color:#9BABB8; color:#ffffff;}
+.whole {padding:80px;}
+h1, h2 {color:#a46a30;} 
+a {color:#2E4374;}
+
+   
+   
+   nav {background-color:#EEE3CB; padding: 10px; margin-bottom: 30px}
+   nav a {color:#eb604b;}
+   nav a:hover {background-color:#D7C0AE;} 
+
+
+.quote {float: right;}
+.part1 {display: flex; padding: 50px; background-color:#464245; border-radius: 1em;}
+.part2 {display: flex; padding: 50px; background-color:#464245; border-radius: 1em;}
+.pa1 {float: left;}
+.pa2 {margin-left: 70px; margin-top: 120px;}
+.pa2 a:link, .pa2 a:visited {color: #ffffff; background-color: transparent;}
+.pa3 {float: left;}
+.pa4 {margin-left: 70px;}
+
+.clear {clear: both;}
+
+.techtitle {text-align:center;}
+.desc {text-align:center;}
+
+.fl2 {display:flex; justify-content: space-between; }
+.fb1 {text-align: center; display: flex; flex-basis:75%; justify-content: space-around; margin-top: 100px;}
+.fb2 {flex-basis:20%;}
+
+
+aside {background-color:#464245; border-radius: 1em; padding:40px;}
