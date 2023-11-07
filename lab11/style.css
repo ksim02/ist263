@@ -1,11 +1,12 @@
 body {background-color:#9BABB8; color:#ffffff;}
 .whole {padding:80px;}
-h1, h2 {color:#a46a30;} 
+h1 {color:#3d2914;} 
+h2 {color:#dfae79;} 
 a {color:#2E4374;}
 
    
    
-   nav {background-color:#EEE3CB; padding: 10px; margin-bottom: 30px}
+   nav {background-color:#4d3c19; padding: 10px; margin-bottom: 30px}
    nav a {color:#eb604b;}
    nav a:hover {background-color:#D7C0AE;} 
 
@@ -45,3 +46,4 @@ aside {background-color:#464245; border-radius: 1em; padding:40px;}
 }
 
 table, td, th {border: 1px solid black;}
+footer {color:#000000}
