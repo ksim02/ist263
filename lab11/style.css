@@ -1,13 +1,12 @@
-body {background-color:#9BABB8; color:#ffffff;}
+body {background-color:#264a67; color:#ffffff;}
 .whole {padding:80px;}
-h1 {color:#3d2914;} 
-h2 {color:#dfae79;} 
+h2, h1 {color:#e1c2a1;} 
 a {color:#2E4374;}
 
    
    
-   nav {background-color:#4d3c19; padding: 10px; margin-bottom: 30px}
-   nav a {color:#eb604b;}
+   nav {background-color:#efb745; padding: 10px; margin-bottom: 30px}
+   nav a {color:#84291b;}
    nav a:hover {background-color:#D7C0AE;} 
 
 
@@ -46,4 +45,3 @@ aside {background-color:#464245; border-radius: 1em; padding:40px;}
 }
 
 table, td, th {border: 1px solid black;}
-footer {color:#000000}
