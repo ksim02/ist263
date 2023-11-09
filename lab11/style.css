@@ -21,7 +21,7 @@ a {color:#2E4374;}
 .linkedinimg {max-width:100%}
 
 
-.clear {clear: both;}
+
 
 .techtitle {text-align:center;}
 .desc {text-align:center;}
@@ -45,3 +45,13 @@ aside {background-color:#464245; border-radius: 1em; padding:40px;}
 }
 
 table, td, th {border: 1px solid black;}
+
+.skip {background-color:antiquewhite;
+   padding: 2px;
+   border: 1px solid #000000;
+   text-decoration:none;
+   position: absolute; 
+   top: 10px;
+   left: -999px; 
+}
+.skip:focus {left: 10px;}
