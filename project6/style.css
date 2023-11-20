@@ -22,8 +22,8 @@ nav a span {display: none;}
 #introhome {max-width:100%;  display: block; margin-left: auto; margin-right: auto;}
 #indtitle {color:#000000; text-align:center; font-size: 5.5em;}
 #indquote {color:#000000; text-align:center; font-size: 2.5em;}
-.indsec1 {font-size:1.2em;}
-.indsec2 {font-size:1.2em;}
+.indsec, .indsec1, .indsec2 {font-size:1.2em;}
+.indsec p {font-size:1em;}
 main {text-align:center;}
 .insentencesam {font-size:1.2em; color:#3f34e1}
 h3 {font-size:2em;}
