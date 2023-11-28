@@ -12,19 +12,23 @@ body {background-color:#ffffff; color:#000000;}
 a {color:#4260a4;}
 
 @media only screen and (min-width: 700px) {
+
 }
 
 @media only screen and (max-width: 699px) {
 nav a {display: block;}
 nav a span {display: none;}
+.PSbox {
+     width: 100%;
+     }
 }
 
 #introhome {max-width:100%;  display: block; margin-left: auto; margin-right: auto;}
-#indtitle {color:#000000; text-align:center; font-size: 5.5em;}
+h1 {color:#000000; text-align:center; font-size: 5.5em;}
 #indquote {color:#000000; text-align:center; font-size: 2.5em;}
 .indsec, .indsec1, .indsec2 {font-size:1.2em;}
 .indsec p {font-size:1em;}
-main {text-align:center;}
+.indmain {text-align:center;}
 .insentencesam {font-size:1.2em; color:#3f34e1}
 h3 {font-size:2em;}
 .indflex1 {display: flex;
@@ -33,8 +37,65 @@ h3 {font-size:2em;}
      align-items: center;
      width: 100%;
      height: auto;
-     
 }
 .indflex1 img {max-width:100%;}
 iframe {max-width:100%;}
 
+
+.PD {display: flex;
+     align-items: center;
+     margin-bottom: 20px;
+     padding: 20px;
+}
+
+.PDT, .PDI {flex: 1;
+     padding: 10px;
+}
+.PDI img {max-width:100%;}
+.PDR {display: flex;
+     align-items: center;
+     margin-bottom: 20px;
+     flex-direction: row-reverse;
+     padding: 20px;
+}
+
+.PSflex {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content:space-evenly;
+}
+
+.PSbox {
+     width: 48%; 
+     margin-bottom: 25px;
+     border: 1px;
+     border-style: solid;
+     border-color:#000000;
+     padding: 10px;
+}
+
+.comparisonintro {text-align: center; font-size: 2em;}
+
+
+.divide_half {
+     display: flex;
+     height: 100%;
+ }
+ 
+ .left_half, .right_half {
+     flex: 1;
+     padding: 20px;
+     text-align: center;
+ }
+ .left_half img, .right_half img{max-width: 100%;}
+
+ .compcontent {text-align: center;
+     margin-left: 4em;
+     margin-right: 4em;
+}
+
+ .compconthead h3 {
+     text-align: center;
+     
+
+ }
