@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hamburger Menu</title>
+<!--
+    CSS
+    1. Large = no hamburger menu
+    2. Small = show hamburger
+    3. Large = no X button
+    4. Small = show X button
+    5. Large = links side by side
+    6. Small = links stacked
+    7. Small = links initially hidden
+
+    JavaScript
+    8. Click on hamburger show the links
+    9. Click on the X hide the links
+-->
+<style>
+    #hamicon {width: 40px;}
+    #hamicon, #close {cursor:pointer;}
+    .firstrow {display:flex; justify-content: space-between; margin-bottom:10px;}
+    @media only screen and (min-width: 800px) {
+        #hamicon, #close {display:none;}
+    }
+    @media only screen and (max-width: 799px) {
+        a {display:block;
+            border:1px solid #444444;
+            padding:3px;
+        }
+        #navicons {display:none;}
+    }
+    
+</style>
+<script>
+    function showNav () {
+        document.getElementById("navicons").style.display = "block";
+    }
+    function hideNav () {
+        document.getElementById("navicons").style.display = "none";
+    }
+</script>
+
+</head>
+<body>
+    <div class="firstrow">
+        <img id="hamicon" onclick="showNav();" src="https://laferger.github.io/ist263/images/hamburger.png" alt="hamburger icon">
+        <p id="close" onclick="hideNav();" >X</p>
+    </div>
+    <nav id="navicons">
+        <a href="../lab10/index.html">Home <span>|</span> </a>
+        <a href="../lab10/skills.html">Skills <span>|</span> </a>
+        <a href="../lab10/contact.html">Contact</a>
+    </nav>
+</body>
+</html>
