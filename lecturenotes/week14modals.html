@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modal</title>
+    <style>
+        body {font-family: Arial, Helvetica, sans-serif;}
+        #container {
+            width:800px;
+            margin:0 auto;
+            position: relative;
+        }
+        #modal {position:absolute;
+                top:50%;
+                left:50%;
+                width: 200px;
+                background-color: #f0f8ff;
+                border:1px solid #000000;
+                margin-left: -100px;
+                margin-top: -100px;
+                display:none;
+                padding: 5px;
+        }
+        #subscribe {
+            background-color:cornflowerblue;
+            padding: 5px;
+            width:180px;
+            text-align:center;
+        }
+        #closebutton {
+            text-align:right;
+            margin:0px;
+
+        }
+    </style>
+    <script>
+        function openmodal() {
+            document.getElementById('modal').style.display = 'block';
+        }
+        function closemodal() {
+            document.getElementById('modal').style.display = 'none';
+        }
+    </script>
+</head>
+<body>
+    <div id="container">    
+        <img src="https://laferger.github.io/ist263/images/cupcakes.jpg" alt="banner of cupcakes">
+        <h1>Desserts</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat beatae error cum enim. Accusantium iusto ratione mollitia molestias vel facilis, ipsam eum dignissimos quia officiis, nesciunt reiciendis necessitatibus eaque maxime?</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas accusantium veritatis repellat suscipit cum aperiam architecto, repellendus modi autem sit saepe asperiores quasi commodi, pariatur illum sapiente impedit nostrum? Ducimus!</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint voluptates deleniti impedit ab accusantium odio ipsam alias voluptatum dolorum ea animi quas, commodi neque aliquam libero recusandae dolores eaque est.</p>
+        <p id="subscribe" onclick="openmodal();">Subscribe to our mailing!</p>
+    </div>
+    <div id="modal">
+        <p id="closebutton" onclick="closemodal();">X</p>
+        <form>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name"><br>
+            <label for="email">Email:</label><br>
+            <input type="text" id="email" name="email"><br>
+            <input type="submit" value="Subscribe">
+        </form>
+    </div>
+</body>
+</html>

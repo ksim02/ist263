@@ -100,6 +100,13 @@ iframe {max-width:100%;}
  .compconthead h3 {
      text-align: center;
  }
- .previews {display:flex;}
+ .previews {display:flex; flex:2; flex-wrap:wrap;}
+ .previewlist {     margin-bottom: 25px;
+     border: 1px;
+     border-style: solid;
+     border-color:#000000;
+     padding: 10px;}
+.previews h3 {font-size:1.5em;}
 
  button {align-items: center;}
+ 
