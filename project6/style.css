@@ -101,3 +101,5 @@ iframe {max-width:100%;}
      text-align: center;
  }
  .previews {display:flex;}
+
+ button {align-items: center;}
