@@ -185,11 +185,11 @@ h2 {font-size:2em;
      width: 100%;
      height: 100%;
 }
- @media only screen and (min-width: 800px) {
+ @media only screen and (min-width: 700px) {
 
  }
  
- @media only screen and (max-width: 799px) {
+ @media only screen and (max-width: 699px) {
  nav a {display: block;}
  nav a span {display: none;}
  .PSbox {
