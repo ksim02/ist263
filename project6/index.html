@@ -6,9 +6,9 @@
     <title>Home</title>
     <link rel="stylesheet" href="style.css">
     <script>
-        function text () {
-            document.getElementsByClassName("subform")
-        }
+        function closeBanner() {
+        document.getElementById('subscribeBanner').style.display = 'none';
+    }
     </script>
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
 
@@ -81,16 +81,13 @@
     </div>
     <br><br>
 
-<div class="subbox">
-<div class="subdesc">
-    <p>Subscribe to our newsletter and get most recent news!</p>
-</div>
-<form class="subform">
-    <label for="email">Enter Email Address:</label><br>
-    <input type="text" id="email" name="email"><br>
-</form>
-<button type="submit" form="emailform" value="Submit">Submit</button>
-
+<div class="subbanner" id="subscribeBanner">
+    <div>
+        <p>Enter your email to subscribe and get most recent news about G9!</p>
+        <input type="email" placeholder="Enter Email">
+        <button>Subscribe</button>
+    </div>
+    <span class="close_btn" onclick="closeBanner()">Close</span>
 </div>
 
 </section> 
@@ -102,3 +99,4 @@
     </footer>
 </body>
 </html>
+

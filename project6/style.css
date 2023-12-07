@@ -67,7 +67,10 @@ iframe {max-width:100%;}
      padding: 10px;
 }
 
-.comparisonintro {text-align: center; font-size: 2em;}
+.comparisonintro {
+     text-align: center; 
+     font-size: 2em;
+}
 
 
 .divide_half {
@@ -80,7 +83,9 @@ iframe {max-width:100%;}
      padding: 20px;
      text-align: center;
  }
- .left_half img, .right_half img{max-width: 100%;}
+ .left_half img, .right_half img{
+     max-width: 100%;
+}
 
  .compcontent {text-align: center;
      margin-left: 4em;
@@ -110,4 +115,48 @@ iframe {max-width:100%;}
  .PSbox {
       width: 100%;
       }
+ }
+
+
+ .subbanner {
+     display: flex;
+     position: fixed;
+     background-color: #dbdadad1;
+     left: 0;
+     bottom: 0;
+     width: 100%;
+     padding: 20px;
+     box-sizing:border-box;
+     justify-content:space-around;
+     align-items:center;
+
+ }
+
+ .subbanner input {
+     padding: 10px;
+     margin-right: 10px;
+     border: 1px solid #ddd;
+     border-radius: 5px;
+ }
+
+ .subbanner button {
+     padding: 5px 15px;
+     background-color: #1313f3;
+     color: #ffffff;
+     border-radius: 5px;
+     cursor: pointer;
+     
+ }
+
+
+ .close_btn {
+     margin-left: 20px;
+     cursor: pointer;
+     font-size:20px;
+     
+ }
+
+ .subbanner p {
+     font-size: 25px;
+     font-family:'Bebas Neue', sans-serif;
  }
