@@ -198,5 +198,7 @@ h2 {font-size:2em;
       .indsec, .indsec1, .indsec2 {
           max-width: 100%; 
       }
-
+ }
+ .emailhide {
+     display:none;
  }

@@ -91,11 +91,11 @@
 <div class="subbanner" id="subscribeBanner">
     <div>
         <p>Enter your email to subscribe and get most recent news about G9!</p>
-        <input type="email" placeholder="Enter Email">
-        <label type="email" for="EmailInput">Email</label>
+        <label for="emailInput" class="emailhide">Email:</label>
+        <input type="email" id="emailInput" placeholder="Enter Email">
         <button>Subscribe</button>
     </div>
-    <span class="close_btn" onclick="closeBanner()">Close</span>
+    <span class="close_btn" onclick="closeBanner()" aria-label="Close">Close</span>
 </div>
 
 </section> 
