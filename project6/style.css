@@ -230,7 +230,7 @@ h2 {font-size:2em;
 
  .navbar {
      background-color: #2b2b2b;
-     overflow: hidden;
+     overflow: visible;
      position: sticky;
      top: 0;
      width: 100%;
