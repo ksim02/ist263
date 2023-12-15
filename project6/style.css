@@ -21,7 +21,18 @@ h1 {color:#000000; text-align:center; font-size: 5.5em;}
      }
 #indtitle {color:#ffffff; text-align:center; font-size: 8em;
      }
-
+#productdetail {
+     font-family: 'Anton', sans-serif;
+}
+#comparisonh1 {
+     font-family: 'Anton', sans-serif;
+}
+#productreview {
+     font-family: 'Anton', sans-serif;
+}
+#monitorspec {
+     font-family: 'Anton', sans-serif;
+}
 .indsec, .indsec1, .indsec2 {font-size:1.2em;}
 .indsec p {font-size:1em;}
 
@@ -92,13 +103,17 @@ h2 {font-size:2em;
      max-width: 100%;
 }
 
- .compcontent {text-align: center;
+ .compcontent {text-align: left;
      margin-left: 4em;
      margin-right: 4em;
+     
 }
 
  .compconthead h3 {
      text-align: center;
+ }
+ .compconthead{
+     margin:20px;
  }
  .previews {display:flex; flex:2; flex-wrap:wrap;}
  .previewlist {     margin-bottom: 25px;
@@ -209,12 +224,12 @@ h2 {font-size:2em;
  .intro2 video {
      height:100%;
      width: 100%;
-     object-fit:contain;
+     object-fit:fill;
  }
 
 
  .navbar {
-     background-color: #333;
+     background-color: #2b2b2b;
      overflow: hidden;
      position: sticky;
      top: 0;
@@ -231,14 +246,14 @@ h2 {font-size:2em;
  }
  
  .navlinks a {
-     color: white;
+     color: #ffffff;
      text-decoration: none;
-     padding: 14px 16px;
+     padding: 14px;
      display: block;
  }
  
  .navlinks a:hover {
-     background-color: #ddd;
+     background-color: #ffffff;
      color: black;
  }
  
@@ -253,7 +268,7 @@ h2 {font-size:2em;
 
  .skip {
      position: absolute;
-     left: -10000px;
+     left: -9999px;
      top: auto;
      width: 1px;
      height: 1px;
@@ -261,8 +276,6 @@ h2 {font-size:2em;
    }
    .skip:focus {
      position: static;
-     width: auto;
-     height: auto;
    }
 
    .parallax {
@@ -315,7 +328,25 @@ h2 {font-size:2em;
       #indtitle {
           font-size: 4em;
       }
-
+      .wholesec {
+          margin: 5px;
+      }
  }
  
  
+p {font-family: 'Roboto', sans-serif;}
+
+.compcontent h3 {
+     font-size:2em;
+}
+.compcontent p {
+     font-size:17px;
+}
+
+#productdetailsec p {
+     font-size: 18px;
+}
+
+.PSflex strong {
+     font-size: 20px;
+}
