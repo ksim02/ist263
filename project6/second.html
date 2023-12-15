@@ -10,16 +10,31 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&display=swap" rel="stylesheet">
+<script src="app.js"></script>
+<script>
+        document.addEventListener('DOMContentLoaded', () => {
+        const hamburger = document.getElementById('hamburger');
+        const navlinkid = document.getElementById('navlinkid');
+
+        hamburger.addEventListener('click', () => {
+            navlinkid.style.display = navlinkid.style.display === 'block' ? 'none' : 'block';
+        });
+    });
+</script>
 </head>
 <body>
-    <nav>
-        <a href="index.html">Home <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> </a>
-        <a href="second.html">Product Details <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> </a>
-        <a href="third.html">Comparison&Reviews</a>
+    <a href="#indmain" class="skip">Skip to main content</a>
+    <nav class="navbar">
+        <button type="button" class="hamburger" id="hamburger">&#9776;</button>
+        <div class="navlinks" id="navlinkid">
+        <a href="index.html">Home</a>
+        <a href="second.html">Product Details</a>
+        <a href="third.html">Comparison/Reviews</a>
+        </div>
     </nav>
     <img src="../project4/images/G9_intro_2_crop_2_150.png" alt="Person sitting on a desk and looking at the monitor" id="introhome">
     <br><br>
-<main>
+<main id="indmain">
 <div class="wholesec">
 <section>
     <h1>Product Details</h1>
@@ -34,7 +49,7 @@
             <img src="../project4/images/curved_150.jpg" alt="Curved explanation">
         </div>
     </div>
-    
+
     <div class="PD">
         <div class="PDT">
             <h2>QD-OLED implemented, Incredible Quality</h2>
@@ -44,7 +59,7 @@
             <img src="../project4/images/QD_OLED_150.jpg" alt="QD OLED explanation">
         </div>
     </div>
-    
+
     <div class="PDR">
         <div class="PDT">
             <h2>Dual QHD display</h2>
@@ -54,7 +69,7 @@
             <img src="../project4/images/dualqhd_2_150.jpg" alt="Dual QHD explanation">
         </div>
     </div>
-    
+
     <div class="PD">
         <div class="PDT">
             <h2>light-fast reaction rate</h2>
@@ -64,7 +79,7 @@
             <img src="../project4/images/response_time_150.webp" alt="Response time explanation">
         </div>
     </div>
-    
+
     <div class="PD">
         <div class="PDT">
             <h2>Leading game to victory</h2>
@@ -74,7 +89,7 @@
             <img src="../project4/images/gsync_150.jpg" alt="G-Sync explanation">
         </div>
     </div>
-    
+
     <div class="PDR">
         <div class="PDT">
             <h2>Details brought to life with HDR</h2>
@@ -84,7 +99,7 @@
             <img src="../project4/images/hdr_contrast_150.jpg" alt="HDR explanation">
         </div>
     </div>
-    
+
     <div class="PD">
         <div class="PDT">
             <h2>The angle of view that is adjusted as you want</h2>
@@ -94,7 +109,7 @@
             <img src="../project4/images/angle_2_150.png" alt="Monitor angle explanation">
         </div>
     </div>
-    
+
     <div class="PDR">
         <div class="PDT">
             <h2>Various ports that connect freely</h2>
@@ -104,7 +119,7 @@
             <img src="../project4/images/g9_ports2_150.jpg" alt="Ports explanation">
         </div>
     </div>
-    
+
 </section>
 
 
@@ -211,9 +226,10 @@
             </ul>
         </div>
     </div>
-    
+
 </section>
 </div>
+
 </main>
 
     <br><br>

@@ -18,27 +18,38 @@
 
 </head>
 <body>
-    <nav>
-        <a href="index.html">Home <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> </a>
-        <a href="second.html">Product Details <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> </a>
+    <a href="#indmain" class="skip">Skip to main content</a>
+    <nav class="navbar">
+        <button type="button" class="hamburger" id="hamburger">&#9776;</button>
+        <div class="navlinks" id="navlinkid">
+        <a href="index.html">Home</a>
+        <a href="second.html">Product Details</a>
         <a href="third.html">Comparison/Reviews</a>
+        </div>
     </nav>
+
     <div class="intro">
-        <video src="../project4/images/g9_13sec.mov" alt="G9 monitor introduction"></video>
+        <video src="../project4/images/g9_13sec.mov"></video>
+    </div>
+    <div class="intro2">
+        <video src="../project4/images/g9_shorts2.mp4"></video>
     </div>
 
-<main class="indmain">
-    <div class="wholeind">
-    <h1 id="indtitle">SAMSUNG Odyssey G9 OLED</h1>
-    <h2 id="indquote">Go beyond.</h2>
+<main class="indmain" id="indmain">
+    <div class="parallax">
+        <h1 id="indtitle">SAMSUNG Odyssey G9 OLED</h1>
+        <h2 id="indquote">Go beyond.</h2>
+    </div>
+<div class="wholeind">
+
     <hr>
     <br> <br> <br> <br>
-<div class="indcontainer">
+
     <div class="indsec">
     <h2>Looking for the next-level gaming monitor? </h2>
         <p><br>Here, check out <span class="insentencesam">SAMSUNG Odyssey G9 OLED.</span><br> It will lead you to a more realistic and vivid gaming experience.</p>
     </div>
-    <br><br>
+
 <section class="indsec1">
     <h2>Why SAMSUNG Odyssey G9 OLED?</h2>
     <br>
@@ -57,8 +68,7 @@
     <a href="https://www.amazon.com/">Amazon</a>
     <p>Third:</p>
     <a href="https://www.bestbuy.com/">BestBuy</a>
-    <p>***Recommend to buy at SAMSUNG Official store since they usually offer many discounts***</p>
-
+    <p>***Recommend to buy at SAMSUNG official store since they usually offer many discounts***</p>
     <!--<img src="../project4/images/samsung_cs.avif" alt="SAMSUNG CS">-->
 </section>
 </div>
@@ -67,7 +77,7 @@
     <h2>Preview Photos and Video</h2>
 
 <div id="g9vid">
-    <iframe width="1000" height="562" src="https://www.youtube.com/embed/JXq27SnoXwo?si=1tX7Otzurl4FTv5H&cc_load_policy=1" title="YouTube video player" 
+    <iframe class="g9vidiframe" width="1000" height="562" src="https://www.youtube.com/embed/JXq27SnoXwo?si=1tX7Otzurl4FTv5H&cc_load_policy=1" title="YouTube video player" 
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen> </iframe>
 </div>
 
@@ -124,10 +134,7 @@
   crossorigin="anonymous"
 ></script>
 <script
-  src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"
-  integrity="sha256-lPE3wjN2a7ABWHbGz7+MKBJaykyzqCbU96BJWjio86U="
-  crossorigin="anonymous"
-></script> <script src="app.js"></script>
+ <script src="app.js"></script>
 </main>
     <footer>
         <hr>

@@ -10,14 +10,28 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&display=swap" rel="stylesheet">
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+    const hamburger = document.getElementById('hamburger');
+    const navlinkid = document.getElementById('navlinkid');
+
+    hamburger.addEventListener('click', () => {
+        navlinkid.style.display = navlinkid.style.display === 'block' ? 'none' : 'block';
+    });
+});
+</script>
 </head>
 <body>
-    <nav>
-        <a href="index.html">Home <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> </a>
-        <a href="second.html">Product Details <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> </a>
-        <a href="third.html">Comparison&Reviews</a>
+    <a href="#indmain" class="skip">Skip to main content</a>
+    <nav class="navbar">
+        <button type="button" class="hamburger" id="hamburger">&#9776;</button>
+        <div class="navlinks" id="navlinkid">
+        <a href="index.html">Home</a>
+        <a href="second.html">Product Details</a>
+        <a href="third.html">Comparison/Reviews</a>
+        </div>
     </nav>
-<main>
+<main id="indmain">
     <div class="wholethird">
 <section>
     <h1>Comparison</h1>
@@ -106,6 +120,7 @@
 </section>
 
 </div>
+
 </main>
     <br><br>
     <footer>
