@@ -122,7 +122,10 @@ h2 {font-size:2em;
      border-style: solid;
      border-color:#000000;
      padding: 10px;}
-.previews h3 {font-size:1.5em;}
+.rvname {
+     font-size:1.7em;
+}
+
 
  button {align-items: center;}
  
